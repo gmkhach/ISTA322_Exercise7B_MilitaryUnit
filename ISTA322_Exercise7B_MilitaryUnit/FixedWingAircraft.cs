@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ISTA322_Exercise7B_MilitaryUnit
 {
-    class ChainOfCommand : Personnel
+    class FixedWingAircraft : Vehicle
     {
-        public override void FallIn()
+        public override void StageVehicles()
         {
-            Console.WriteLine("The commanding officer, XO, and top NCO are reporting as requested, sir!");
+            Console.WriteLine("The airplanes are ready to take off, sir!");
         }
-
     }
 }

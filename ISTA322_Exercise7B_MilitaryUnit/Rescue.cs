@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ISTA322_Exercise7B_MilitaryUnit
 {
-    class ChainOfCommand : Personnel
+    class Rescue : Mission
     {
-        public override void FallIn()
+        public override void Execute()
         {
-            Console.WriteLine("The commanding officer, XO, and top NCO are reporting as requested, sir!");
+            Console.WriteLine("The hostages were recovered, sir!");
         }
 
     }

@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace ISTA322_Exercise7B_MilitaryUnit
 {
-    class Vehicles
+    class Vehicle
     {
-        private int wheeledVehicles;
-        private int trackedVehicles;
-        private int fixedWings;
-        private int helicopters;
-
-        public void StageVehicles()
+        public virtual void StageVehicles()
         {
             Console.WriteLine("The convoy vehicles are staged and ready.");
         }

@@ -8,11 +8,9 @@ namespace ISTA322_Exercise7B_MilitaryUnit
 {
     class Mission
     {
-        private string unitMission;
-
-        public void GetMission()
+        public virtual void Execute()
         {
-            Console.WriteLine(unitMission);
+            Console.WriteLine("PT is free!");
         }
     }
 }

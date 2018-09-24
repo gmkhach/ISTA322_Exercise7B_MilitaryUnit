@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ISTA322_Exercise7B_MilitaryUnit
 {
-    class ChainOfCommand : Personnel
+    class CrewServedWeapon : Weapon 
     {
-        public override void FallIn()
+        public override void Fire()
         {
-            Console.WriteLine("The commanding officer, XO, and top NCO are reporting as requested, sir!");
+            Console.WriteLine("Brrr!");
         }
-
     }
 }

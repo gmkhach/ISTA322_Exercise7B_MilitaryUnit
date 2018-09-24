@@ -8,11 +8,9 @@ namespace ISTA322_Exercise7B_MilitaryUnit
 {
     class Personnel
     {
-        private int numberOfTroops;
-
-        public void FallIn()
+        public virtual void FallIn()
         {
-            Console.WriteLine("Your troops are formed up in the parade field.");
+            Console.WriteLine("The unit is at attention with its commander in front.");
         }
     }
 }
