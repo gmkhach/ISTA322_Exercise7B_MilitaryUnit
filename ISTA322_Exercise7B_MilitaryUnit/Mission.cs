@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace ISTA322_Exercise7B_MilitaryUnit
 {
-    class Program
+    class Mission
     {
-        static void Main(string[] args)
-        {
+        private string unitMission;
 
+        public void GetMission()
+        {
+            Console.WriteLine(unitMission);
         }
     }
 }

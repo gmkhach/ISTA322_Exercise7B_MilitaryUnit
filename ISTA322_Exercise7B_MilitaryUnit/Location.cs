@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace ISTA322_Exercise7B_MilitaryUnit
 {
-    class Program
+    class Location
     {
-        static void Main(string[] args)
-        {
+        private string location;
 
+        public void GetLocation()
+        {
+            Console.WriteLine(location);
         }
     }
 }

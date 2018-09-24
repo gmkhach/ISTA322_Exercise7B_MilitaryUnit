@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace ISTA322_Exercise7B_MilitaryUnit
 {
-    class Program
+    class Personnel
     {
-        static void Main(string[] args)
-        {
+        private int numberOfTroops;
 
+        public void FallIn()
+        {
+            Console.WriteLine("Your troops are formed up in the parade field.");
         }
     }
 }
