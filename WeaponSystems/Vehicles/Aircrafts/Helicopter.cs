@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace WeaponSystems.Vehicles.Aircrafts
 {
-    class Helicopter : Vehicle
+    public class Helicopter : Aircraft
     {
+        public override void Fly()
+        {
+            Console.WriteLine("Whoppa whoppa whopa whoppa");
+        }
+
+        public override void Move()
+        {
+            Console.WriteLine("Helicopter has moved");
+        }
+
+        public override void Maintain()
+        {
+            Console.WriteLine("Helicopter is all over the hanger floor.");
+        }
+
     }
 }

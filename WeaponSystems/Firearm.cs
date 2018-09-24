@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WeaponSystems
 {
-    class Firearm
+    public class Firearm
     {
     }
 }

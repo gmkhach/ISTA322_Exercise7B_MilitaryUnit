@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WeaponSystems.Vehicles;
+using WeaponSystems;
 
 namespace ISTA322_Exercise7B_MilitaryUnit
 {
@@ -10,7 +12,8 @@ namespace ISTA322_Exercise7B_MilitaryUnit
     {
         static void Main(string[] args)
         {
-
+            Tank myTank = new Tank();
+            myTank.Move();
 
             Personnel myTroops = new Personnel();
             myTroops.FallIn();

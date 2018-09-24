@@ -12,6 +12,5 @@ namespace ISTA322_Exercise7B_MilitaryUnit
         {
             Console.WriteLine("I hear the choppers hovering.");
         }
-
     }
 }

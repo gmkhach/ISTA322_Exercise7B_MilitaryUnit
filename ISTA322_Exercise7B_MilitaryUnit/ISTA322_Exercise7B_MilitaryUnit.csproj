@@ -64,5 +64,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WeaponSystems\WeaponSystems.csproj">
+      <Project>{9588c15c-ff4d-43d8-83f5-11e0b099b4bc}</Project>
+      <Name>WeaponSystems</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

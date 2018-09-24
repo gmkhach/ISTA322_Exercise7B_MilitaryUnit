@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WeaponSystems.Vehicles
 {
-    class Tank : Vehicle
+    public class Tank : Vehicle
     {
 
     }

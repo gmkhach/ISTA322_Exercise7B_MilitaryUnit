@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WeaponSystems.Vehicles
 {
-    class Vehicle
+    public class Vehicle
     {
         public virtual void Move()
         {

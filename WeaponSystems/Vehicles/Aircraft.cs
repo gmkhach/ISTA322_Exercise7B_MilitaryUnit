@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WeaponSystems.Vehicles
 {
-    class Aircraft : Vehicle
+    public class Aircraft : Vehicle
     {
         public virtual void Fly()
         {
@@ -32,6 +32,5 @@ namespace WeaponSystems.Vehicles
         {
             Console.WriteLine("Vehicle is down for maintenance.");
         }
-
     }
 }
