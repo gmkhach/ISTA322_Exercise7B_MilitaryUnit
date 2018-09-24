@@ -10,6 +10,8 @@ namespace ISTA322_Exercise7B_MilitaryUnit
     {
         static void Main(string[] args)
         {
+
+
             Personnel myTroops = new Personnel();
             myTroops.FallIn();
             myTroops = new ChainOfCommand();
